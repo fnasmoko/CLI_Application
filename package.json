@@ -1,0 +1,16 @@
+{
+  "name": "cli_app",
+  "version": "1.0.0",
+  "description": "membuat aplikasi cli",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fibri nali asmoko",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "open": "^8.4.0"
+  }
+}
