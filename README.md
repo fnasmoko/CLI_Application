@@ -6,7 +6,7 @@ _CLI Application is CLI Application is a service to access the log files on the 
 ## Getting Help
 
 If you’re stuck, to make easier for you to use this tool.
-Here is a list of the available commands:
+There are lists of the available commands:
 * [**-h**] displays instructions for use
 * [**-t**] converts the file to a json or text file, then displays it.
             example: $mytools /var/log/nginx/error.log -t json
@@ -16,6 +16,14 @@ Here is a list of the available commands:
                      $mytools /var/log/nginx/error.log -t json -o /User/johnmayer/Desktop/nginxlog.json
 
 ## First Steps
+There are lists of library that must be install or do before:
+1. npm init
+2. edit file package.json, add => "type": "module" in the below of "main"
+3. npm install --save inquirer
+4. npm install nodemon -g  (optional)
+5. npm install --save open
+6. npm i fs
+
 
 Hope it can be useful for you.
 Happy developing!
